@@ -6,7 +6,7 @@ config ZMK_KEYBOARD_NAME
 config ZMK_SPLIT
     default y
 
-endif
+endif # SHIELD_MTK64_R
 
 if SHIELD_MTK64_L
 
@@ -16,7 +16,7 @@ config ZMK_KEYBOARD_NAME
 config ZMK_SPLIT
     default y
 
-endif
+endif # SHIELD_MTK64_L
 
 if SHIELD_MTK64_FOOT
 
@@ -26,7 +26,7 @@ config ZMK_KEYBOARD_NAME
 config ZMK_SPLIT
     default y
 
-endif
+endif # SHIELD_MTK64_FOOT
 
 if SHIELD_mtk64_DONGLE
 
