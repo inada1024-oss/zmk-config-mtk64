@@ -52,12 +52,12 @@
 
         toL4 {
             bindings = <&to 4>;
-            key-positions = <55 53>;
+            key-positions = <55 25>;
         };
 
         toL5 {
             bindings = <&to 5>;
-            key-positions = <31 53>;
+            key-positions = <34 25>;
         };
     };
 
