@@ -102,7 +102,7 @@
 
         layer_4 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp RS(NUMBER_2)  &kp JP_CARET  &kp RS(N8)  &kp RS(N9)  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp RS(N6)  &kp RS(N7)  &kp RS(NUMBER_1)  &kp RS(N5)  &kp RS(NUMBER_3)  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp NON_US_BACKSLASH  &kp RS(NUMBER_4)  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp RS(NUMBER_2)  &kp JP_CARET  &kp RS(N8)  &kp RS(N9)  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp RS(N6)  &kp RS(N7)  &kp RS(NUMBER_1)  &kp RS(N5)  &kp RS(NUMBER_3)  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp JP_BSLH  &kp RS(NUMBER_4)  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
 
             sensor-bindings =
