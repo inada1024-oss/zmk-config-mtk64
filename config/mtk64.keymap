@@ -76,7 +76,12 @@
 
         TO0EISUCOMB {
             bindings = <&M0EISU>;
-            key-positions = <31 54>;
+            key-positions = <53 28>;
+        };
+
+        C0KANA {
+            bindings = <&M0KANA>;
+            key-positions = <54 31>;
         };
     };
 
