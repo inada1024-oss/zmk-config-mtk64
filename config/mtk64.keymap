@@ -49,7 +49,7 @@
         MEISU: MEISU {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp A &kp B>;
+            bindings = <&kp JP_KANA &kp JP_ZKHK>;
             label = "MEISU";
         };
     };
