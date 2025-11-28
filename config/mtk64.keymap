@@ -133,7 +133,7 @@
 
         layer_4 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp JP_EQUAL  &trans  &kp LS(COMMA)  &kp LS(PERIOD)  &trans  &kp RS(NUMBER_2)  &kp JP_PLUS  &kp JP_ASTRK  &kp JP_CARET  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp RS(N6)  &kp RS(N7)  &kp RS(NUMBER_1)  &kp RS(N5)  &kp RS(NUMBER_3)  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp JP_BSLH  &kp RS(NUMBER_4)  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp JP_EQUAL  &trans  &kp LS(COMMA)  &kp LS(PERIOD)  &trans  &kp RS(NUMBER_2)  &kp JP_PLUS  &kp JP_ASTRK  &kp JP_CARET  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp RS(N6)  &kp RS(N7)  &kp RS(NUMBER_1)  &kp RS(N5)  &kp RS(NUMBER_3)  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp JP_LBKT  &kp JP_RBKT  &kp JP_BSLH  &kp RS(NUMBER_4)  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
 
             sensor-bindings =
