@@ -39,7 +39,7 @@
 
 / {
     macros {
-        M0EISU: toL0eisu {
+        M0EISU: M0EISU {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&to 0 &kp JP_KANA &kp JP_ZKHK>;
@@ -58,6 +58,13 @@
             #binding-cells = <0>;
             bindings = <&to 0 &kp JP_KANA>;
             label = "M0KANA";
+        };
+
+        M5EISU: M5EISU {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&to 5 &kp JP_KANA &kp JP_ZKHK>;
+            label = "M5EISU";
         };
     };
 
@@ -85,7 +92,7 @@
         };
 
         toL5 {
-            bindings = <&to 5>;
+            bindings = <&M5EISU>;
             key-positions = <32 55>;
         };
     };
