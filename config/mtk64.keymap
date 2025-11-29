@@ -122,7 +122,10 @@
 &trans  &trans  &kp F2  &trans  &kp F4  &kp F5  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp JP_EQUAL  &kp UP_ARROW  &kp LS(COMMA)  &kp LS(PERIOD)  &kp RA(F4)  &kp RC(W)  &trans  &mkp MB2  &trans  &trans  &trans  &kp LC(A)  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans  &kp RC(PAGE_UP)  &mkp MB1  &mo 3  &mkp MB3  &kp RIGHT_WIN  &trans  &trans  &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &trans  &trans  &trans  &kp RC(PAGE_DOWN)  &mkp MB4  &trans  &mkp MB5  &kp RA(TAB)  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
 
-            sensor-bindings = <&scroll_left_right>, <&scroll_up_down>;
+            sensor-bindings = <
+                &inc_dec_kp RIGHT_ARROW LEFT_ARROW
+                &inc_dec_kp UP_ARROW   DOWN_ARROW
+            >;
         };
 
         layer_3 {
@@ -131,8 +134,8 @@
             >;
 
             sensor-bindings = <
-                &scroll_left_right
-                &scroll_up_down
+                &inc_dec_kp RIGHT_ARROW LEFT_ARROW
+                &inc_dec_kp UP_ARROW   DOWN_ARROW
             >;
         };
 
