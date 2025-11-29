@@ -66,27 +66,27 @@
 
         C0EISU {
             bindings = <&M0EISU>;
-            key-positions = <53 28>;
+            key-positions = <28 52>;
         };
 
         C0KANA {
             bindings = <&M0KANA>;
-            key-positions = <54 31>;
+            key-positions = <31 55>;
         };
 
         toL2 {
             bindings = <&to 2>;
-            key-positions = <34 25>;
+            key-positions = <31 32>;
         };
 
         toL4 {
             bindings = <&to 4>;
-            key-positions = <33 54>;
+            key-positions = <33 55>;
         };
 
         toL5 {
             bindings = <&to 5>;
-            key-positions = <32 54>;
+            key-positions = <32 55>;
         };
     };
 
@@ -95,14 +95,7 @@
 
         default_layer {
             bindings = <
-&kp ESC  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5  &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &kp JP_YEN
-&kp JP_CAPS  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &kp JP_AT
-&kp TAB  &kp A  &kp S  &kp D  &kp F  &kp G  &kp H  &kp J  &lt 3 K  &kp L  &to 2  &kp JP_MINUS
-&kp LSHFT  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp LS(N8)  &kp RS(N9)  &kp N  &kp M  &kp COMMA  &kp DOT  &kp JP_SLASH  &kp JP_UNDER
-&kp LEFT_CONTROL  &kp LEFT_ALT  &mt LEFT_SHIFT SPACE  &lt 4 INTERNATIONAL_5  &lt 4 DELETE  &mt RIGHT_SHIFT ENTER  &kp JP_SEMI  &kp JP_COLON
-&kp LEFT_WIN  &kp JP_HENK  &mt LEFT_CONTROL F10  &mt RIGHT_CONTROL BACKSPACE  &kp ENTER  &tog 2
-&MEISU  &kp JP_KANA
-&mo 1  &mo 2  &mo 3  &mo 1  &mo 2  &mo 3  &mo 1  &mo 2  &mo 3
+&kp ESC  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5  &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &kp JP_YEN  &kp JP_CAPS  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &kp JP_AT  &kp TAB  &kp A  &kp S  &kp D  &kp F  &kp G  &kp H  &kp J  &lt 3 K  &kp L  &to 2  &kp JP_MINUS  &kp LSHFT  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp LS(N8)  &kp RS(N9)  &kp N  &kp M  &kp COMMA  &kp DOT  &kp JP_SLASH  &kp JP_UNDER  &kp LEFT_CONTROL  &kp LEFT_ALT  &mt LEFT_SHIFT SPACE  &mt LEFT_CONTROL INTERNATIONAL_5  &mt RIGHT_CONTROL DELETE  &mt RIGHT_SHIFT ENTER  &kp JP_SEMI  &kp JP_COLON  &kp LEFT_WIN  &kp JP_HENK  &lt 4 F10  &lt 4 BACKSPACE  &kp ENTER  &tog 2  &MEISU  &kp JP_KANA  &mo 1  &mo 2  &mo 3  &mo 1  &mo 2  &mo 3  &mo 1  &mo 2  &mo 3
             >;
 
             sensor-bindings = <
