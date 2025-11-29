@@ -119,7 +119,7 @@
 
         layer_2 {
             bindings = <
-&trans  &trans  &kp F2  &trans  &kp F4  &kp F5  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp JP_EQUAL  &kp UP_ARROW  &kp LS(COMMA)  &kp LS(PERIOD)  &kp RA(F4)  &kp RC(W)  &trans  &mkp MB2  &trans  &trans  &trans  &kp LC(A)  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans  &kp RC(PAGE_UP)  &mkp MB1  &mo 3  &mkp MB3  &kp RIGHT_WIN  &trans  &trans  &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &trans  &trans  &trans  &kp RC(PAGE_DOWN)  &mkp MB4  &trans  &mkp MB5  &kp RA(TAB)  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &kp F2  &trans  &kp F4  &kp F5  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp JP_EQUAL  &kp UP_ARROW  &kp LS(COMMA)  &kp LS(PERIOD)  &kp RA(F4)  &kp RC(W)  &trans  &mkp MB2  &trans  &trans  &trans  &kp LC(A)  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp LC(F)  &kp RC(PAGE_UP)  &mkp MB1  &mo 3  &mkp MB3  &kp RIGHT_WIN  &trans  &trans  &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &trans  &trans  &trans  &kp RC(PAGE_DOWN)  &mkp MB4  &trans  &mkp MB5  &kp RA(TAB)  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
 
             sensor-bindings = <
@@ -141,7 +141,7 @@
 
         layer_4 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp JP_EQUAL  &trans  &kp LS(COMMA)  &kp LS(PERIOD)  &trans  &kp RS(NUMBER_2)  &kp JP_PLUS  &kp JP_ASTRK  &kp RS(NUMBER_3)   &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp RS(N6)  &kp RS(N7)  &kp RS(NUMBER_1)  &kp RS(N5)  &kp JP_CARET &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp JP_LBKT  &kp JP_RBKT  &kp JP_BSLH  &kp RS(NUMBER_4)  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp JP_EQUAL  &trans  &kp LS(COMMA)  &kp LS(PERIOD)  &trans  &kp RS(NUMBER_2)  &kp JP_PLUS  &kp JP_ASTRK  &kp RS(NUMBER_3)  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp RS(N6)  &kp RS(N7)  &kp RS(NUMBER_1)  &kp RS(N5)  &kp JP_CARET  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp JP_LBKT  &kp JP_RBKT  &kp JP_BSLH  &kp RS(NUMBER_4)  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
 
             sensor-bindings =
