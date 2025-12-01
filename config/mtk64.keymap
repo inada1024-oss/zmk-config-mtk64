@@ -106,8 +106,8 @@
 &kp JP_CAPS  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &kp JP_AT
 &kp TAB  &kp A  &kp S  &kp D  &kp F  &kp G  &kp H  &kp J  &lt 3 K  &kp L  &lt 2 JP_TILDE  &kp JP_MINUS
 &kp LSHFT  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp LS(N8)  &kp RS(N9)  &kp N  &kp M  &kp COMMA  &kp DOT  &kp JP_SLASH  &kp JP_UNDER
-&kp LEFT_CONTROL  &kp LEFT_ALT  &mt LEFT_SHIFT SPACE  &mt LEFT_CONTROL INTERNATIONAL_5  &mt RIGHT_CONTROL DELETE  &mt RIGHT_SHIFT ENTER  &kp JP_SEMI  &kp JP_COLON
-&kp LEFT_WIN  &kp JP_HENK  &lt 4 F10  &lt 4 BACKSPACE  &kp ENTER  &tog 2  &MEISU  &kp JP_KANA
+&kp LEFT_CONTROL  &kp LEFT_ALT  &mt LEFT_SHIFT SPACE  &mt LEFT_CONTROL F10  &mt RIGHT_CONTROL DELETE  &mt RIGHT_SHIFT ENTER  &kp JP_SEMI  &kp JP_COLON
+&kp LEFT_WIN  &kp JP_HENK  &lt 4 INTERNATIONAL_5  &lt 4 BACKSPACE  &kp ENTER  &tog 2  &MEISU  &kp JP_KANA
 &mo 1  &mo 2  &mo 3  &mo 1  &mo 2  &mo 3  &mo 1  &mo 2  &mo 3
             >;
 
