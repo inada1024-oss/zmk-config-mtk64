@@ -88,7 +88,7 @@
 
         toL4 {
             bindings = <&to 4>;
-            key-positions = <33 55>;
+            key-positions = <55 34>;
         };
 
         toL5 {
