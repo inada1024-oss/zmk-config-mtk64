@@ -78,12 +78,12 @@
 
         C0KANA {
             bindings = <&M0KANA>;
-            key-positions = <55 32>;
+            key-positions = <55 31>;
         };
 
         toL2 {
             bindings = <&to 2>;
-            key-positions = <31 55>;
+            key-positions = <31 28>;
         };
 
         toL4 {
@@ -93,7 +93,7 @@
 
         toL5 {
             bindings = <&M5EISU>;
-            key-positions = <55 33>;
+            key-positions = <55 32>;
         };
     };
 
