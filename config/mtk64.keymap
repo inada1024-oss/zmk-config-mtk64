@@ -60,11 +60,11 @@
             label = "M0KANA";
         };
 
-        M5EISU: M5EISU {
+        M4EISU: M4EISU {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&to 5 &kp JP_KANA &kp JP_ZKHK>;
-            label = "M5EISU";
+            bindings = <&to 4 &kp JP_KANA &kp JP_ZKHK>;
+            label = "M4EISU";
         };
     };
 
@@ -87,13 +87,13 @@
         };
 
         toL4 {
-            bindings = <&to 4>;
-            key-positions = <55 34>;
+            bindings = <&M4EISU>;
+            key-positions = <55 32>;
         };
 
         toL5 {
-            bindings = <&M5EISU>;
-            key-positions = <55 32>;
+            bindings = <&to 5>;
+            key-positions = <55 34>;
         };
     };
 
