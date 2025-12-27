@@ -155,11 +155,6 @@
     };
 };
 
-&spi0 {
-    status = "disabled";
-
-    trackball: trackball@0 {
-        status = "disabled";
-        reg = <0>;
-    };
+&uicr {
+        nfct-pins-as-gpios;
 };
