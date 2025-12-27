@@ -10,3 +10,5 @@
 &default_transform {
     row-offset = <14>;
 };
+
+&xiao_serial { status = "disabled"; };

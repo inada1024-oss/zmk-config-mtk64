@@ -14,6 +14,7 @@
         rows = <0>;
         events = <0>;
     };
+
 };
 
 // &default_transform {
@@ -68,3 +69,6 @@
         prechargep = <0x22>;
     };
 }; 
+
+&xiao_serial { status = "disabled"; };
+
