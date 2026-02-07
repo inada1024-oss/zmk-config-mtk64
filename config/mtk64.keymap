@@ -39,61 +39,90 @@
 
 / {
     macros {
-        M0EISU: M0EISU {
+        MMOJIHANKAKU: M0EISU {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&to 0 &kp JP_KANA &kp JP_ZKHK>;
             label = "M0EISU";
         };
 
-        MEISU: MEISU {
+        MHANKAKU: MEISU {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp JP_KANA &kp JP_ZKHK>;
             label = "MEISU";
         };
 
-        M0KANA: M0KANA {
+        MMOJIZENKAKU: M0KANA {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&to 0 &kp JP_KANA>;
             label = "M0KANA";
         };
 
-        M2EISU: M2EISU {
+        MSUJIHANKAKU: M2EISU {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&to 2 &kp JP_KANA &kp JP_ZKHK>;
             label = "M2EISU";
+        };
+
+        MSUJIZENKAKU: new_macro {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&to 2 &kp JP_KANA>;
+            label = "NEW_MACRO";
+        };
+
+        MSUJIHIDARITE: new_macro {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&to 3 &kp JP_KANA &kp JP_ZKHK>;
+            label = "NEW_MACRO";
         };
     };
 
     combos {
         compatible = "zmk,combos";
 
-        C0EISU {
-            bindings = <&M0EISU>;
+        CMOJIHANKAKU {
+            bindings = <&MMOJIHANKAKU>;
             key-positions = <28 52>;
         };
 
-        C0KANA {
-            bindings = <&M0KANA>;
+        CMOJIZENKAKU {
+            bindings = <&MMOJIZENKAKU>;
             key-positions = <55 31>;
         };
 
-        toL2 {
-            bindings = <&M2EISU>;
-            key-positions = <55 32>;
+        CSUJIHANKAKU {
+            bindings = <&MSUJIHANKAKU>;
+            key-positions = <52 27>;
         };
 
-        toL6 {
+        CKIGOU {
             bindings = <&to 6>;
             key-positions = <55 34>;
         };
 
-        toL4 {
+        CMOUSE {
             bindings = <&to 4>;
             key-positions = <31 28>;
+        };
+
+        CSUJIZENKAKU {
+            bindings = <&MSUJIZENKAKU>;
+            key-positions = <55 32>;
+        };
+
+        CSHORTCUT {
+            bindings = <&to 7>;
+            key-positions = <52 55>;
+        };
+
+        CHANKAKUZENKAKU {
+            bindings = <&kp A>;
+            key-positions = <53 54>;
         };
     };
 
