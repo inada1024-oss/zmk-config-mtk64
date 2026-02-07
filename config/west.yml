@@ -11,9 +11,9 @@ manifest:
       import: app/west.yml
     - name: zmk-pmw3610-driver
       remote: mentako-ya
-      revision: main
+      revision: v4.0
     - name: zmk-rgbled-widget
       remote: mentako-ya
-      revision: main
+      revision: v4.0
   self:
     path: config
