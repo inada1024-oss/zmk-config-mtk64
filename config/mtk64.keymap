@@ -39,90 +39,61 @@
 
 / {
     macros {
-        MMOJIHANKAKU: MOJIHANKAKU {
+        M0EISU: M0EISU {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&to 0 &kp JP_KANA &kp JP_ZKHK>;
-            label = "MOJIHANKAKU";
+            label = "M0EISU";
         };
 
-        MHANKAKU: MHANKAKU {
+        MEISU: MEISU {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp JP_KANA &kp JP_ZKHK>;
-            label = "MHANKAKU";
+            label = "MEISU";
         };
 
-        MMOJIZENKAKU: MMOJIZENKAKU {
+        M0KANA: M0KANA {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&to 0 &kp JP_KANA>;
-            label = "MMOJIZENKAKU";
+            label = "M0KANA";
         };
 
-        MSUJIHANKAKU: MSUJIHANKAKU {
+        M2EISU: M2EISU {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&to 2 &kp JP_KANA &kp JP_ZKHK>;
-            label = "MSUJIHANKAKU";
-        };
-
-        MSUJIZENKAKU: MSUJIZENKAKU {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&to 2 &kp JP_KANA>;
-            label = "MSUJIZENKAKU";
-        };
-
-        MSUJIHIDARITE: MSUJIHIDARITE {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&to 3 &kp JP_KANA &kp JP_ZKHK>;
-            label = "MSUJIHIDARITE";
+            label = "M2EISU";
         };
     };
 
     combos {
         compatible = "zmk,combos";
 
-        CMOJIHANKAKU {
-            bindings = <&MMOJIHANKAKU>;
+        C0EISU {
+            bindings = <&M0EISU>;
             key-positions = <28 52>;
         };
 
-        CMOJIZENKAKU {
-            bindings = <&MMOJIZENKAKU>;
+        C0KANA {
+            bindings = <&M0KANA>;
             key-positions = <55 31>;
         };
 
-        CSUJIHANKAKU {
-            bindings = <&MSUJIHANKAKU>;
-            key-positions = <52 27>;
+        toL2 {
+            bindings = <&M2EISU>;
+            key-positions = <55 32>;
         };
 
-        CKIGOU {
+        toL6 {
             bindings = <&to 6>;
             key-positions = <55 34>;
         };
 
-        CMOUSE {
+        toL4 {
             bindings = <&to 4>;
             key-positions = <31 28>;
-        };
-
-        CSUJIZENKAKU {
-            bindings = <&MSUJIZENKAKU>;
-            key-positions = <55 32>;
-        };
-
-        CSHORTCUT {
-            bindings = <&mo 7>;
-            key-positions = <52 55>;
-        };
-
-        CF2 {
-            bindings = <&kp F2>;
-            key-positions = <53 54>;
         };
 
     };
@@ -133,12 +104,12 @@
         default_layer {
             bindings = <
 &kp ESC  &none  &none  &none  &kp F4  &kp F5  &none  &kp F7  &kp F8  &kp F9  &none  &kp JP_YEN
-&kp JP_CAPS  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &kp JP_AT  
-&kp TAB  &kp A  &kp S  &kp D  &kp F  &kp G  &kp H  &kp J  &lt 5 K  &kp L  &lt 4 JP_TILDE  &kp JP_MINUS  
-&kp LEFT_AL  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp LS(N8)  &kp RS(N9)  &kp N  &kp M  &kp COMMA  &kp DOT  &kp JP_SLASH  &kp JP_UNDER  
-&kp JP_ZKHK  &none  &mt LEFT_SHIFT SPACE  &mt LEFT_CONTROL F10  &mt RIGHT_CONTROL DELETE  &mt RIGHT_SHIFT ENTER  &kp JP_SEMI  &kp JP_COLON  
-&kp F2  &kp JP_HENK  &lt 6 INTERNATIONAL_5  &lt 6 BACKSPACE  &kp ENTER  &tog 2  
-&to 4  &MMOJIZENKAKU  
+&kp JP_CAPS  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &kp JP_AT
+&kp TAB  &kp A  &kp S  &kp D  &kp F  &kp G  &kp H  &kp J  &lt 5 K  &kp L  &lt 4 JP_TILDE  &kp JP_MINUS
+&kp LSHFT  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp LS(N8)  &kp RS(N9)  &kp N  &kp M  &kp COMMA  &kp DOT  &kp JP_SLASH  &kp JP_UNDER
+&kp LEFT_CONTROL  &kp LEFT_ALT  &mt LEFT_SHIFT SPACE  &mt LEFT_CONTROL F10  &mt RIGHT_CONTROL DELETE  &mt RIGHT_SHIFT ENTER  &kp JP_SEMI  &kp JP_COLON
+&kp LEFT_WIN  &kp JP_HENK  &lt 6 INTERNATIONAL_5  &lt 6 BACKSPACE  &kp ENTER  &tog 2
+&kp JP_ZKHK  &kp F2
 &mo 1  &mo 2  &mo 3  &mo 1  &mo 2  &mo 3  &mo 1  &mo 2  &mo 3
             >;
 
@@ -156,10 +127,10 @@
 
         layer_2 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  
-&trans  &kp JP_EQUAL  &kp JP_PLUS  &trans  &kp JP_ASTRK  &kp JP_SLASH  &trans  &kp LS(COMMA)  &kp RS(PERIOD)  &trans  &kp RS(NUMBER_3)  &trans  
-&trans  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5  &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &trans  
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp JP_EQUAL  &trans  &kp LS(COMMA)  &kp RS(PERIOD)  &trans  &trans  &kp JP_PLUS  &kp JP_ASTRK  &kp RS(NUMBER_3)  &trans  &trans  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5  &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
 
             sensor-bindings = <
@@ -170,11 +141,7 @@
 
         layer_3 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  
-&trans  &trans  &trans  &kp JP_MINUS  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  
-&trans  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5  &trans  &trans  &trans  &trans  &trans  &trans  
-&trans  &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  
-&trans  &trans  &kp ENTER  &kp DOT  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp JP_EQUAL  &trans  &kp LS(COMMA)  &kp LS(PERIOD)  &trans  &kp RS(NUMBER_2)  &kp JP_PLUS  &kp JP_ASTRK  &kp RS(NUMBER_3)  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp RS(N6)  &kp RS(N7)  &kp RS(NUMBER_1)  &kp RS(N5)  &kp JP_CARET  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp JP_LBKT  &kp JP_RBKT  &kp JP_BSLH  &kp RS(NUMBER_4)  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
 
             sensor-bindings = <
@@ -185,11 +152,7 @@
 
         layer_4 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &kp RA(F4)  &kp RC(W)  &trans  &trans  &trans  &trans  
-&trans  &trans  &trans  &kp UP_ARROW  &trans  &trans  &trans  &trans  &trans  &mkp MB2  &trans  &trans  
-&trans  &kp LC(A)  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp LC(F)  &kp RC(PAGE_UP)  &mkp MB1  &mo 5  &mkp MB3  &kp RIGHT_WIN  &trans  
-&trans  &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &trans  &trans  &trans  &kp RC(PAGE_DOWN)  &mkp MB4  &trans  &mkp MB5  &trans  &trans  
-&trans  &trans  &mt LEFT_SHIFT SPACE  &mt LEFT_CONTROL F10  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp JP_EQUAL  &kp UP_ARROW  &kp LS(COMMA)  &kp LS(PERIOD)  &kp RA(F4)  &kp RC(W)  &trans  &mkp MB2  &trans  &trans  &trans  &kp LC(A)  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp LC(F)  &kp RC(PAGE_UP)  &mkp MB1  &mo 5 &mkp MB3  &kp RIGHT_WIN  &trans  &trans  &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &trans  &trans  &trans  &kp RC(PAGE_DOWN)  &mkp MB4  &trans  &mkp MB5  &kp RA(TAB)  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
 
             sensor-bindings = <
@@ -200,7 +163,7 @@
 
         layer_5 {
             bindings = <
-&trans  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp F12  &trans  &kp LS(LC(A))  &kp LS(LC(S))  &kp LS(LC(Y))  &trans  &trans  &trans  &kp RA(TAB)  &trans  &kp RIGHT_CONTROL  &trans  &trans  &trans  &kp LS(LC(Z))  &kp LS(LC(X))  &kp LS(LC(C))  &kp LS(LC(V))  &kp LS(LC(B))  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp F12  &trans  &kp LS(LC(A))  &kp LS(LC(S))  &kp LS(LC(Y))  &trans  &trans  &trans  &trans  &trans  &kp RIGHT_CONTROL  &trans  &trans  &trans  &kp LS(LC(Z))  &kp LS(LC(X))  &kp LS(LC(C))  &kp LS(LC(V))  &kp LS(LC(B))  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
 
             sensor-bindings = <
@@ -211,24 +174,12 @@
 
         layer_6 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  
-&trans  &kp JP_EQUAL  &kp JP_PLUS  &kp JP_MINUS  &kp JP_ASTRK  &kp JP_SLASH  &trans  &kp LS(COMMA)  &kp RS(PERIOD)  &kp RS(N2)  &kp RS(NUMBER_3)  &trans  
-&trans  &trans  &trans  &trans  &trans  &trans  &kp RS(N6)  &kp RS(N5)  &kp RS(NUMBER_1)  &kp RS(N7)  &kp JP_CARET  &trans  
-&trans  &trans  &trans  &trans  &trans  &trans  &kp JP_LBKT  &kp JP_RBKT  &kp JP_BSLH  &kp RS(NUMBER_4)  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp JP_EQUAL  &trans  &kp LS(COMMA)  &kp LS(PERIOD)  &trans  &kp RS(NUMBER_2)  &kp JP_PLUS  &kp JP_ASTRK  &kp RS(NUMBER_3)  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp RS(N6)  &kp RS(N7)  &kp RS(NUMBER_1)  &kp RS(N5)  &kp JP_CARET  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp JP_LBKT  &kp JP_RBKT  &kp JP_BSLH  &kp RS(NUMBER_4)  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
 
             sensor-bindings = <
                 &inc_dec_kp RIGHT_ARROW LEFT_ARROW
                 &inc_dec_kp UP_ARROW   DOWN_ARROW
-            >;
-        };
-
-        layer_7 {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  
-&trans  &trans  &trans  &kp LG(UP_ARROW)  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  
-&kp LS(LC(ESCAPE))  &trans  &kp LG(LEFT_ARROW)  &kp LG(DOWN_ARROW)  &kp LG(RIGHT_ARROW)  &kp LC(F)  &trans  &kp RG(D)  &kp RG(E)  &kp RG(L)  &kp RG(P)  &kp LC(LA(DELETE)  
-&trans  &kp LG(N1)  &kp LG(N2)  &kp LG(N3)  &kp LG(N4)  &kp LG(N5)  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
