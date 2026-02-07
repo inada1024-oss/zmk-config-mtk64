@@ -120,9 +120,14 @@
             key-positions = <52 55>;
         };
 
+        CF2 {
+            bindings = <&kp F2>;
+            key-positions = <53 54>;
+        };
+
         CHANKAKUZENKAKU {
             bindings = <&kp A>;
-            key-positions = <53 54>;
+            key-positions = <64 65>;
         };
     };
 
