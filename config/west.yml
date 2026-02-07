@@ -7,13 +7,13 @@ manifest:
   projects:
     - name: zmk
       remote: zmkfirmware
-      revision: v4.0
+      revision: main
       import: app/west.yml
     - name: zmk-pmw3610-driver
       remote: mentako-ya
-      revision: v4.0
+      revision: main
     - name: zmk-rgbled-widget
       remote: mentako-ya
-      revision: v4.0
+      revision: main
   self:
     path: config
