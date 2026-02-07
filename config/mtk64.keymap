@@ -95,7 +95,6 @@
             bindings = <&to 4>;
             key-positions = <31 28>;
         };
-
     };
 
     keymap {
@@ -103,14 +102,7 @@
 
         default_layer {
             bindings = <
-&kp ESC  &none  &none  &none  &kp F4  &kp F5  &none  &kp F7  &kp F8  &kp F9  &none  &kp JP_YEN
-&kp JP_CAPS  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &kp JP_AT
-&kp TAB  &kp A  &kp S  &kp D  &kp F  &kp G  &kp H  &kp J  &lt 5 K  &kp L  &lt 4 JP_TILDE  &kp JP_MINUS
-&kp LSHFT  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp LS(N8)  &kp RS(N9)  &kp N  &kp M  &kp COMMA  &kp DOT  &kp JP_SLASH  &kp JP_UNDER
-&kp LEFT_CONTROL  &kp LEFT_ALT  &mt LEFT_SHIFT SPACE  &mt LEFT_CONTROL F10  &mt RIGHT_CONTROL DELETE  &mt RIGHT_SHIFT ENTER  &kp JP_SEMI  &kp JP_COLON
-&kp LEFT_WIN  &kp JP_HENK  &lt 6 INTERNATIONAL_5  &lt 6 BACKSPACE  &kp ENTER  &tog 2
-&kp JP_ZKHK  &kp F2
-&mo 1  &mo 2  &mo 3  &mo 1  &mo 2  &mo 3  &mo 1  &mo 2  &mo 3
+&kp ESC  &none  &none  &none  &kp F4  &kp F5  &none  &kp F7  &kp F8  &kp F9  &none  &kp JP_YEN  &kp JP_CAPS  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &kp JP_AT  &kp TAB  &kp A  &kp S  &kp D  &kp F  &kp G  &kp H  &kp J  &lt 5 K  &kp L  &lt 4 JP_TILDE  &kp JP_MINUS  &kp LSHFT  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp LS(N8)  &kp RS(N9)  &kp N  &kp M  &kp COMMA  &kp DOT  &kp JP_SLASH  &kp JP_UNDER  &kp LEFT_CONTROL  &kp LEFT_ALT  &mt LEFT_SHIFT SPACE  &mt LEFT_CONTROL F10  &mt RIGHT_CONTROL DELETE  &mt RIGHT_SHIFT ENTER  &kp JP_SEMI  &kp JP_COLON  &kp LEFT_WIN  &kp JP_HENK  &lt 6 INTERNATIONAL_5  &lt 6 BACKSPACE  &kp ENTER  &tog 2  &kp JP_ZKHK  &kp F2  &mo 1  &mo 2  &mo 3  &mo 1  &mo 2  &mo 3  &mo 1  &mo 2  &mo 3
             >;
 
             sensor-bindings = <
@@ -127,10 +119,7 @@
 
         layer_2 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp JP_EQUAL  &trans  &kp LS(COMMA)  &kp RS(PERIOD)  &trans  &trans  &kp JP_PLUS  &kp JP_ASTRK  &kp RS(NUMBER_3)  &trans  &trans  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5  &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp JP_EQUAL  &trans  &kp LS(COMMA)  &kp RS(PERIOD)  &trans  &trans  &kp JP_PLUS  &kp JP_ASTRK  &kp RS(NUMBER_3)  &trans  &trans  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5  &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
 
             sensor-bindings = <
@@ -152,7 +141,7 @@
 
         layer_4 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp JP_EQUAL  &kp UP_ARROW  &kp LS(COMMA)  &kp LS(PERIOD)  &kp RA(F4)  &kp RC(W)  &trans  &mkp MB2  &trans  &trans  &trans  &kp LC(A)  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp LC(F)  &kp RC(PAGE_UP)  &mkp MB1  &mo 5 &mkp MB3  &kp RIGHT_WIN  &trans  &trans  &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &trans  &trans  &trans  &kp RC(PAGE_DOWN)  &mkp MB4  &trans  &mkp MB5  &kp RA(TAB)  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp JP_EQUAL  &kp UP_ARROW  &kp LS(COMMA)  &kp LS(PERIOD)  &kp RA(F4)  &kp RC(W)  &trans  &mkp MB2  &trans  &trans  &trans  &kp LC(A)  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp LC(F)  &kp RC(PAGE_UP)  &mkp MB1  &mo 5  &mkp MB3  &kp RIGHT_WIN  &trans  &trans  &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &trans  &trans  &trans  &kp RC(PAGE_DOWN)  &mkp MB4  &trans  &mkp MB5  &kp RA(TAB)  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
 
             sensor-bindings = <
@@ -180,6 +169,12 @@
             sensor-bindings = <
                 &inc_dec_kp RIGHT_ARROW LEFT_ARROW
                 &inc_dec_kp UP_ARROW   DOWN_ARROW
+            >;
+        };
+
+        layer_7 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
