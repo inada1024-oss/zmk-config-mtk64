@@ -21,3 +21,4 @@
 &right_encoder {
     status = "okay";
 };
+#include "mtk64_esb_addr.dtsi"

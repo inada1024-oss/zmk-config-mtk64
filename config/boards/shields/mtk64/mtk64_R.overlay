@@ -32,3 +32,4 @@
 };
 
 &xiao_serial { status = "disabled"; };
+#include "mtk64_esb_addr.dtsi"

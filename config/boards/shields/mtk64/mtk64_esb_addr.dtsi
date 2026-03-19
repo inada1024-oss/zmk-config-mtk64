@@ -1,0 +1,14 @@
+/*
+ * Copyright (c) 2024
+ * SPDX-License-Identifier: MIT
+ */
+
+/{
+    esb_split {
+        compatible = "zmk,esb-split";
+        // Unique random default addresses for mtk64
+        base-addr-0 = <0x7E 0x3A 0x8C 0x1B>;
+        base-addr-1 = <0x2D 0x91 0xF4 0x56>;
+        addr-prefix = <0x11 0xD3 0x8E 0x47 0xBA 0x6C 0x9F 0x32>;
+    };
+};
