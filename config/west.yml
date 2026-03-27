@@ -24,7 +24,7 @@ manifest:
       remote: caksoylar
       revision: main
     - name: zmk-feature-split-esb
-      remote: mentako-ya
+      remote: badjeff
       revision: main
     - name: sdk-nrf
       remote: badjeff
