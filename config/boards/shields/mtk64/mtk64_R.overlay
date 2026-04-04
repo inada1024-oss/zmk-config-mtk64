@@ -27,7 +27,7 @@
     status = "okay";
 };
 
-&trackball_listener {
+&trackball_split { 
     status = "okay";
 };
 
