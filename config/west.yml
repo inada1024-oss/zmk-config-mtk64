@@ -21,5 +21,8 @@ manifest:
     - name: zmk-rgbled-widget
       remote: caksoylar
       revision: main
+    - name: zmk-dongle-display
+      remote: mentako-ya
+      revision: mentako_zephyr-4.1
   self:
     path: config
