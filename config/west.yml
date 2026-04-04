@@ -10,6 +10,8 @@ manifest:
       url-base: https://github.com/caksoylar
     - name: englmaxi
       url-base: https://github.com/englmaxi
+    - name: rschenk
+      url-base: https://github.com/rschenk
   projects:
     - name: zmk
       remote: zmkfirmware
@@ -20,6 +22,9 @@ manifest:
       revision: main
     - name: zmk-rgbled-widget
       remote: caksoylar
+      revision: main
+    - name: zmk-component-raytac-dongle
+      remote: mentako-ya
       revision: main
   self:
     path: config
