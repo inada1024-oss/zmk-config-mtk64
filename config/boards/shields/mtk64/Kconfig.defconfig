@@ -6,6 +6,9 @@ config ZMK_KEYBOARD_NAME
 config ZMK_SPLIT
     default y
 
+config ZMK_SPLIT_ROLE_CENTRAL
+    default n
+
 endif # SHIELD_MTK64_R
 
 if SHIELD_MTK64_L
@@ -14,6 +17,9 @@ config ZMK_KEYBOARD_NAME
     default "mtk64_L"
 
 config ZMK_SPLIT
+    default y
+
+config ZMK_SPLIT_ROLE_CENTRAL
     default y
 
 endif # SHIELD_MTK64_L

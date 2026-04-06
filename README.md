@@ -55,6 +55,10 @@ https://github.com/mentako-ya/zmk-config-mtk64/tree/right_left_dongle-display
 
 https://github.com/mentako-ya/zmk-config-mtk64/tree/right_left_dongle-display_foot
 
+### 左ボール右エンコーダーブランチ
+
+https://github.com/mentako-ya/zmk-config-mtk64/tree/right_left_left-ball
+
 ### 左ボール右エンコーダー＋ドングルモジュールOLED用ブランチ
 
 https://github.com/mentako-ya/zmk-config-mtk64/tree/right_left_dongle-display_left-ball

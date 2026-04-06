@@ -70,7 +70,8 @@
     trackball_listener: trackball_listener {
         compatible = "zmk,input-listener";
         status = "disabled";
-        device = <&trackball_split>;
+        // device = <&trackball_split>; //子機にトラックボールがある場合
+        device = <&trackball>; //親機にトラックボールがある場合
 
         snipe {
         layers = <1>;
