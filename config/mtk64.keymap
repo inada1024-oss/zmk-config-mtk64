@@ -5,7 +5,6 @@
 #include <input/processors.dtsi>
 #include "keycode_japanese.h"
 
-
 // スクロール量の設定
 #define ZMK_POINTING_DEFAULT_SCRL_VAL 100
 
