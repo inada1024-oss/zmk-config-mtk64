@@ -109,6 +109,11 @@
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp RS(RC(Y))  &trans  &trans  &trans  &trans  &trans  &trans  &kp LS(LC(A))  &kp LS(LC(S))  &trans  &trans  &trans  &trans  &kp RA(TAB)  &trans  &kp RIGHT_CONTROL  &trans  &trans  &trans  &kp LS(LC(Z))  &kp LS(LC(X))  &kp LS(LC(C))  &kp LS(LC(V))  &kp LS(LC(B))  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
+
+            sensor-bindings = <
+                &scroll_left_right SCRL_RIGHT SCRL_LEFT
+                &scroll_up_down SCRL_DOWN SCRL_UP
+            >;
         };
 
         layer_6 {
