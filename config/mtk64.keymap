@@ -76,8 +76,8 @@
             >;
 
             sensor-bindings = <
-                &inc_dec_kp TAB LS(TAB) 
-                &inc_dec_kp PG_UP PG_DN
+                &inc_dec_kp LEFT_ARROW RIGHT_ARROW
+                &inc_dec_kp UP_ARROW   DOWN_ARROW
             >;
         };
 
@@ -87,14 +87,19 @@
             >;
 
             sensor-bindings = <
-                &scroll_left_right SCRL_LEFT SCRL_RIGHT
-                &scroll_up_down SCRL_UP SCRL_DOWN
+                &inc_dec_kp LEFT_ARROW RIGHT_ARROW
+                &inc_dec_kp UP_ARROW   DOWN_ARROW
             >;
         };
 
         layer_4 {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp UP_ARROW  &trans  &trans  &kp EQUAL  &kp LESS_THAN  &kp GREATER_THAN  &mkp MB2  &trans  &trans  &trans  &kp LC(A)  &kp LEFT  &kp DOWN_ARROW  &kp RIGHT  &kp LC(F)  &kp RC(PAGE_UP)  &mkp MB1  &mkp MB3  &mo 5  &trans  &trans  &trans  &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &trans  &trans  &trans  &kp RC(PAGE_DOWN)  &mkp MB4  &trans  &mkp MB5  &trans  &trans  &trans  &trans  &lt 6 SPACE  &trans  &trans  &lt 6 ENTER  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+            >;
+
+            sensor-bindings = <
+                &inc_dec_kp LEFT_ARROW RIGHT_ARROW
+                &inc_dec_kp UP_ARROW   DOWN_ARROW
             >;
         };
 
@@ -112,6 +117,11 @@
         layer_6 {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp Q  &kp DOLLAR  &kp INT_YEN  &kp DOUBLE_QUOTES  &trans  &trans  &trans  &trans  &trans  &trans  &kp LEFT_CONTROL  &trans  &kp PERCENT  &kp AMPERSAND  &kp EXCLAMATION  &kp SINGLE_QUOTE  &kp SEMICOLON  &kp COLON  &trans  &trans  &trans  &trans  &trans  &trans  &kp JP_LBKT  &kp JP_RBKT  &kp JP_BSLH  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+            >;
+
+            sensor-bindings = <
+                &inc_dec_kp LEFT_ARROW RIGHT_ARROW
+                &inc_dec_kp UP_ARROW   DOWN_ARROW
             >;
         };
     };
