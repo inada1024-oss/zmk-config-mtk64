@@ -84,7 +84,7 @@
 
         layer_2 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp EQUAL  &kp LESS_THAN  &kp GREATER_THAN  &kp PLUS  &kp ASTRK  &kp HASH  &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp JP_EQUAL  &kp LESS_THAN  &kp GREATER_THAN  &kp JP_PLUS  &kp JP_ASTRK  &kp HASH  &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
 
             sensor-bindings = <
@@ -95,7 +95,7 @@
 
         layer_3 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp F9  &kp F10  &kp F11  &kp F12  &trans  &kp EQUAL  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp ASTRK  &kp HASH  &trans  &kp F5  &kp F6  &kp F7  &kp F8  &trans  &kp PERIOD  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &lt 4 PLUS  &trans  &trans  &kp F1  &kp F2  &kp F3  &kp F4  &trans  &trans  &trans  &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp F9  &kp F10  &kp F11  &kp F12  &trans  &kp JP_EQUAL  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp JP_ASTRK  &kp HASH  &trans  &kp F5  &kp F6  &kp F7  &kp F8  &trans  &kp PERIOD  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &lt 4 JP_PLUS  &trans  &trans  &kp F1  &kp F2  &kp F3  &kp F4  &trans  &trans  &trans  &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
 
             sensor-bindings = <
@@ -127,7 +127,7 @@
 
         layer_6 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp Q  &kp DOLLAR  &kp INT_YEN  &kp DOUBLE_QUOTES  &trans  &trans  &trans  &trans  &trans  &trans  &kp LEFT_CONTROL  &trans  &kp PERCENT  &kp AMPERSAND  &kp EXCLAMATION  &kp SINGLE_QUOTE  &kp SEMICOLON  &kp COLON  &trans  &trans  &trans  &trans  &trans  &trans  &kp JP_LBKT  &kp JP_RBKT  &kp JP_BSLH  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp JP_CARET  &kp DOLLAR  &kp JP_YEN  &kp DOUBLE_QUOTES  &kp PERCENT  &kp HASH  &trans  &trans  &trans  &trans  &kp LEFT_CONTROL  &trans  &kp JP_TILDE  &kp AMPERSAND  &kp EXCLAMATION  &kp SINGLE_QUOTE  &kp SEMICOLON  &kp COLON  &trans  &trans  &trans  &trans  &trans  &trans  &kp JP_LBKT  &kp JP_RBKT  &kp JP_BSLH  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
 
             sensor-bindings = <
