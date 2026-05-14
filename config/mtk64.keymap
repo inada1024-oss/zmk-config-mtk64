@@ -19,17 +19,22 @@
 / {
     behaviors {
         // 垂直スクロール用のbehaviorの設定
+
         scroll_up_down: behavior_sensor_rotate_mouse_wheel_up_down {
             compatible = "zmk,behavior-sensor-rotate-var";
             #sensor-binding-cells = <2>;
             bindings = <&msc>, <&msc>;
+
             tap-ms = <20>; // スクロールのタップ時間
         };
+
         // 水平スクロール用のbehaviorの設定
+
         scroll_left_right: behavior_sensor_rotate_mouse_wheel_left_right {
             compatible = "zmk,behavior-sensor-rotate-var";
             #sensor-binding-cells = <2>;
             bindings = <&msc>, <&msc>;
+
             tap-ms = <20>; // スクロールのタップ時間
         };
     };
@@ -105,7 +110,7 @@
 
         layer_5 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp RS(RC(Y))  &trans  &trans  &trans  &trans  &trans  &trans  &kp LS(LC(A))  &kp LS(LC(S))  &trans  &trans  &trans  &kp RA(TAB)  &kp JP_PLUS  &kp RIGHT_CONTROL  &none  &trans  &trans  &trans  &kp LS(LC(Z))  &kp LS(LC(X))  &kp LS(LC(C))  &kp LS(LC(V))  &kp LS(LC(B))  &trans  &trans  &trans  &kp JP_MINUS  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp RS(RC(Y))  &trans  &trans  &trans  &trans  &trans  &trans  &kp LS(LC(A))  &kp LS(LC(S))  &trans  &trans  &trans  &trans  &kp RA(RC(TAB))  &kp RIGHT_CONTROL  &none  &trans  &trans  &trans  &kp LS(LC(Z))  &kp LS(LC(X))  &kp LS(LC(C))  &kp LS(LC(V))  &kp LS(LC(B))  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
 
             sensor-bindings =
