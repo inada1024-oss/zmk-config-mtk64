@@ -21,9 +21,9 @@
         // 垂直スクロール用のbehaviorの設定
 
         scroll_up_down: behavior_sensor_rotate_mouse_wheel_up_down {
-            compatible = "zmk,behavior-sensor-rotate";
-            #sensor-binding-cells = <0>;
-            bindings = <&msc SCRL_UP>, <&msc SCRL_DOWN>;
+            compatible = "zmk,behavior-sensor-rotate-var";
+            #sensor-binding-cells = <2>;
+            bindings = <&msc>, <&msc>;
 
             tap-ms = <20>; // スクロールのタップ時間
         };
@@ -31,9 +31,9 @@
         // 水平スクロール用のbehaviorの設定
 
         scroll_left_right: behavior_sensor_rotate_mouse_wheel_left_right {
-            compatible = "zmk,behavior-sensor-rotate";
-            #sensor-binding-cells = <0>;
-            bindings = <&msc SCRL_LEFT>, <&msc SCRL_RIGHT>;
+            compatible = "zmk,behavior-sensor-rotate-var";
+            #sensor-binding-cells = <2>;
+            bindings = <&msc>, <&msc>;
 
             tap-ms = <20>; // スクロールのタップ時間
         };
