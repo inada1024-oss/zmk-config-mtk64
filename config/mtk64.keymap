@@ -19,22 +19,17 @@
 / {
     behaviors {
         // 垂直スクロール用のbehaviorの設定
-
         scroll_up_down: behavior_sensor_rotate_mouse_wheel_up_down {
             compatible = "zmk,behavior-sensor-rotate-var";
             #sensor-binding-cells = <2>;
             bindings = <&msc>, <&msc>;
-
             tap-ms = <20>; // スクロールのタップ時間
         };
-
         // 水平スクロール用のbehaviorの設定
-
         scroll_left_right: behavior_sensor_rotate_mouse_wheel_left_right {
             compatible = "zmk,behavior-sensor-rotate-var";
             #sensor-binding-cells = <2>;
             bindings = <&msc>, <&msc>;
-
             tap-ms = <20>; // スクロールのタップ時間
         };
     };
@@ -63,9 +58,10 @@
 &kp ESC  &none  &to 2  &to 3  &to 4  &kp F5  &none  &to 0  &kp RA(F4)  &none  &none  &kp JP_YEN  &kp JP_CAPS  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &kp JP_AT  &mt LEFT_SHIFT TAB  &kp A  &kp S  &kp D  &kp F  &kp G  &kp H  &kp J  &kp K  &lt 5 L  &lt 4 JP_PLUS  &mt RIGHT_SHIFT JP_MINUS  &mt LEFT_CONTROL JP_ZKHK  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp LS(NUMBER_8)  &kp RS(NUMBER_9)  &kp N  &kp M  &kp COMMA  &kp DOT  &mt RIGHT_ALT SLASH  &mt RIGHT_CONTROL JP_UNDER  &none  &none  &lt 4 SPACE  &lt 3 F10  &kp DELETE  &lt 4 ENTER  &none  &none  &none  &none  &lt 2 JP_MHEN  &kp BACKSPACE  &none  &none  &kp JP_HENK  &kp RIGHT_WIN  &mo 1  &mo 2  &mo 3  &mo 1  &mo 2  &mo 3  &mo 1  &mo 2  &mo 3
             >;
 
-            sensor-bindings =
-                <&scroll_left_right SCRL_LEFT SCRL_RIGHT>,
-                <&scroll_up_down SCRL_UP SCRL_DOWN>;
+            sensor-bindings = <
+                &scroll_left_right SCRL_LEFT SCRL_RIGHT
+                &scroll_up_down SCRL_UP SCRL_DOWN
+            >;
         };
 
         layer_1 {
