@@ -127,7 +127,7 @@
 
         layer_6 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp JP_CARET  &kp DOLLAR  &kp JP_AMPS  &kp JP_DQT  &trans  &kp HASH  &trans  &trans  &trans  &kp LEFT_CONTROL  &trans  &kp JP_COLON  &kp JP_TILDE  &kp JP_YEN  &kp EXCLAMATION  &kp JP_SQT  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp SEMICOLON  &kp JP_LBKT  &kp JP_RBKT  &kp JP_PIPE  &kp PERCENT  &trans  &kp COMMA  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp JP_CARET  &kp DOLLAR  &kp JP_AMPS  &kp JP_DQT  &trans  &kp HASH  &trans  &trans  &trans  &trans  &kp LEFT_CONTROL  &kp JP_COLON  &kp JP_TILDE  &kp JP_YEN  &kp EXCLAMATION  &kp JP_SQT  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp SEMICOLON  &kp JP_LBKT  &kp JP_RBKT  &kp JP_PIPE  &kp PERCENT  &trans  &kp COMMA  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
 
             sensor-bindings = <
