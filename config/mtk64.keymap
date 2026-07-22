@@ -120,7 +120,7 @@
 
         layer_6 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp F3  &kp F6  &kp F11  &kp F12  &trans  &kp JP_CARET  &kp DOLLAR  &kp JP_AMPS  &kp JP_DQT  &trans  &kp JP_HASH  &trans  &kp F7  &kp F8  &kp F9  &kp F10  &trans  &kp JP_TILDE  &kp JP_YEN  &kp EXCLAMATION  &kp JP_SQT  &kp JP_COLON  &trans  &trans  &kp F1  &kp F2  &kp F4  &kp F5  &trans  &kp JP_LBKT  &kp JP_RBKT  &kp JP_PIPE  &kp PERCENT  &trans  &kp COMMA  &mt RIGHT_ALT SEMICOLON  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp F3  &kp F6  &kp F11  &kp F12  &trans  &kp JP_CARET  &kp DOLLAR  &kp JP_AMPS  &kp JP_DQT  &trans  &kp JP_HASH  &trans  &kp F7  &kp F8  &kp F9  &kp F10  &trans  &kp JP_TILDE  &kp JP_YEN  &kp EXCLAMATION  &kp JP_SQT  &kp JP_COLON  &trans  &trans  &kp F1  &kp F2  &kp F4  &kp F5  &trans  &kp JP_LBKT  &kp JP_RBKT  &kp JP_PIPE  &kp PERCENT  &trans  &kp DOT  &mt RIGHT_ALT SEMICOLON  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
 
             sensor-bindings = <
